@@ -1,16 +1,18 @@
-#def turn_count(board)
-  #board = ["X", "Y", " "]
-#  counter = 0
-#  board.each do |moves|
-#  if moves== "O" || moves== "X"
-#    counter += 1
-    #puts "#{counter}
-#    end
-#print "#{counter}"
-#end
-#end
-
 def turn_count(board)
+#  board = ["X", "O", " ", " "]
+  counter = 0
+  board.each do |moves|
+  if moves== "O" || moves== "X"
+    counter += 1
+    puts "#{counter}"
+  end
+end
+counter
+end
+
+
+    
+def turn_count2(board)
 #board = ["X", " ", "O", " "]
   repeat = board.size
   counter = 0
