@@ -34,5 +34,3 @@ def current_player(moved)
     puts "Y"
   end
 end
-
-
