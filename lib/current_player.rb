@@ -27,10 +27,10 @@ def turn_count2(board)
 moved
 end
 
-def current_player(moved)
-  if moved % 2 == 0
+def current_player(board)
+  if turn_count(board) % 2 == 0
     puts "X"
   else
-    puts "Y"
+    puts "O"
   end
 end
