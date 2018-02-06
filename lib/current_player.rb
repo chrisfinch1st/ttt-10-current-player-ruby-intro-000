@@ -26,3 +26,13 @@ def turn_count2(board)
   end
 moved
 end
+
+def current_player(moved)
+  if moved % 2 == 0
+    puts "X"
+  else
+    puts "Y"
+  end
+end
+
+
