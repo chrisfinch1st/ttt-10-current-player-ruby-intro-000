@@ -11,7 +11,7 @@
 #end
 
 def turn_count
-board = ["X", " ", "O" " "]
+board = ["X", " ", "O", " "]
   repeat = board.size
   counter = 0
   moved = 0
