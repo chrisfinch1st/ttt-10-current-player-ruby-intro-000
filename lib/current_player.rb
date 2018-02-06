@@ -11,7 +11,7 @@ counter
 end
 
 
-    
+
 def turn_count2(board)
 #board = ["X", " ", "O", " "]
   repeat = board.size
