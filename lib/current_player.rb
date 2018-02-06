@@ -27,11 +27,17 @@ def turn_count2(board)
 moved
 end
 
+#def current_player(board)
+#  if turn_count(board).even?
+#    player = "X"
+#  else
+#    player = "O"
+#  end
+#player
+#end
+
+
 def current_player(board)
-  if turn_count(board).even?
-    player = "X"
-  else
-    player = "O"
-  end
-player
+  turn_count(board).even? ? player = "X" : player = "O"
+  player
 end
