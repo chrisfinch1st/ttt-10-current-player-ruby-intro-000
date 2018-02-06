@@ -4,7 +4,7 @@ def turn_count(board)
   board.each do |moves|
   if moves== "O" || moves== "X"
     counter += 1
-    puts "#{counter}"
+    #puts "#{counter}"
   end
 end
 counter
